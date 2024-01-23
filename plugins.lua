@@ -5,10 +5,10 @@ local plugins = {
 
   -- Override plugin definition options
   -- TODO
-  -- {
-  --   "lukas-reineke/cmp-under-comparator",
-  --   dependencies = {},
-  -- },
+  {
+    "lukas-reineke/cmp-under-comparator",
+    dependencies = {},
+  },
   -- {
   --   -- GIT LINKS CREATER
   --   "ruifm/gitlinker.nvim",
@@ -74,20 +74,21 @@ local plugins = {
     },
     event = "LspAttach",
   },
-  {
-    -- GIT iccue, review...
-    -- NOTE: its dont working
-    "pwntester/octo.nvim",
-    dependencies = {
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim",
-      "nvim-tree/nvim-web-devicons",
-    },
-    config = function()
-      require("octo").setup()
-    end,
-    lazy = false,
-  },
+  --  FIX
+  -- {
+  --   -- GIT iccue, review...
+  --   -- NOTE: its dont working
+  --   "pwntester/octo.nvim",
+  --   dependencies = {
+  --     "nvim-lua/plenary.nvim",
+  --     "nvim-telescope/telescope.nvim",
+  --     "nvim-tree/nvim-web-devicons",
+  --   },
+  --   config = function()
+  --     require("octo").setup()
+  --   end,
+  --   lazy = false,
+  -- },
 
   {
     "iamcco/markdown-preview.nvim",
