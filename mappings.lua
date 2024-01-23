@@ -121,7 +121,7 @@ M.general = {
     -- ["gl"] = { ":Lspsaga show_line_diagnostics <CR>", "LspSaga line diagnostic", opts = { silent = true } },
     -- ["<leader>s"] = { ":Lspsaga show_buf_diagnostics <CR>", "LspSaga ", opts = { silent = true } },
     -- ["<leader>s"] = { ":Lspsaga show_cursor_diagnostics <CR>", "LspSaga ", opts = { silent = true } },
-    ["<leader>sgd"] = { ":Lspsaga goto_definition <CR>", "LspSaga go to definition", opts = { silent = true } },
+    ["<leader>gd"] = { ":Lspsaga goto_definition <CR>", "LspSaga go to definition", opts = { silent = true } },
     ["<leader>stt"] = { ":Lspsaga term_toggle <CR>", "LspSaga term toggle", opts = { silent = true } },
     ["<leader>sL"] = { ":Lspsaga open_log <CR>", "LspSaga open log", opts = { silent = true } },
     ["<leader>sf"] = { ":Lspsaga finder <CR>", "LspSaga finder", opts = { silent = true } },
@@ -147,6 +147,7 @@ M.disabled = {
     ["<leader>f"] = { "" },
     [":"] = { "" },
     ["<CR>"] = { "" },
+    ["<leader>gd"] = { "" },
   },
 }
 -- more keybinds!
