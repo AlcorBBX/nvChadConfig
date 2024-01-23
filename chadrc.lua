@@ -5,8 +5,8 @@ local M = {}
 local highlights = require "custom.highlights"
 
 M.ui = {
-  theme = "doomchad",
-  theme_toggle = { "doomchad_light", "doomchad" },
+  theme = "chadracula",
+  theme_toggle = { "chadracula_light", "chadracula" },
   -- theme = "onedark",
   -- theme_toggle = { "onedark", "one_light" },
 
@@ -46,7 +46,7 @@ M.ui = {
     },
   },
 
-  -- transparency = true,
+  transparency = true,
 }
 
 M.plugins = "custom.plugins"
